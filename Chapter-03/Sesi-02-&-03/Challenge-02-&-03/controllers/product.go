@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 	"strconv"
-	"go-gin-rest-api-with-jwt/helpers"
-	"go-gin-rest-api-with-jwt/models"
-	"go-gin-rest-api-with-jwt/services"
+	"simple-rest-api-with-jwt/helpers"
+	"simple-rest-api-with-jwt/models"
+	"simple-rest-api-with-jwt/services"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
 )

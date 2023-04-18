@@ -3,31 +3,26 @@ package database
 import (
 	"fmt"
 	"log"
-	//"os"
-	"go-gin-rest-api-with-jwt/models"
+	"os"
+	"simple-rest-api-with-jwt/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
 
 var (
-	host     = "localhost"
-	user     = "postgres"
-	password = "1"
-	dbName   = "lapak"
-	port     = 5432
-	db  	 *gorm.DB
-	err 	 error
+	db  *gorm.DB
+	err error
 )
 
 func StartDB() {
-	//dbHost := os.Getenv("DB_HOST")
-	//dbPort := os.Getenv("DB_PORT")
-	//dbUser := os.Getenv("DB_USER")
-	//dbPassword := os.Getenv("DB_PASSWORD")
-	//dbName := os.Getenv("DB_NAME")
+	dbHost := os.Getenv("DB_HOST")
+	dbPort := os.Getenv("DB_PORT")
+	dbUser := os.Getenv("DB_USER")
+	dbPassword := os.Getenv("DB_PASSWORD")
+	dbName := os.Getenv("DB_NAME")
 
-	config := fmt.Sprintf("host=%s port=%d user=%s password=%s dbname=%s sslmode=disable",
-		host, port, user, password, dbName)
+	config := fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s sslmode=disable",
+	dbHost, dbPort, dbUser, dbPassword, dbName)
 	dsn := config
 	db, err = gorm.Open(postgres.Open(dsn), &gorm.Config{})
 

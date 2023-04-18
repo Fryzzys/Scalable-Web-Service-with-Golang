@@ -1,7 +1,7 @@
 package models
 
 import (
-	"go-gin-rest-api-with-jwt/helpers"
+	"simple-rest-api-with-jwt/helpers"
 	"github.com/asaskevich/govalidator"
 	"gorm.io/gorm"
 )

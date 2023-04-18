@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"go-gin-rest-api-with-jwt/helpers"
+	"simple-rest-api-with-jwt/helpers"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

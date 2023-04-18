@@ -2,7 +2,7 @@ package repository
 
 import (
 	"errors"
-	"go-gin-rest-api-with-jwt/models"
+	"simple-rest-api-with-jwt/models"
 	"github.com/stretchr/testify/mock"
 )
 

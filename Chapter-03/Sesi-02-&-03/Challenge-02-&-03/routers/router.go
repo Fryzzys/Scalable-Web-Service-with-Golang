@@ -1,11 +1,11 @@
 package routers
 
 import (
-	"go-gin-rest-api-with-jwt/database"
-	"go-gin-rest-api-with-jwt/controllers"
-	"go-gin-rest-api-with-jwt/middleware"
-	"go-gin-rest-api-with-jwt/repository"
-	"go-gin-rest-api-with-jwt/services"
+	"simple-rest-api-with-jwt/database"
+	"simple-rest-api-with-jwt/controllers"
+	"simple-rest-api-with-jwt/middleware"
+	"simple-rest-api-with-jwt/repository"
+	"simple-rest-api-with-jwt/services"
 	"github.com/gin-gonic/gin"
 )
 

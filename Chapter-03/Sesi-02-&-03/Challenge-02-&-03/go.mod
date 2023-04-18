@@ -1,4 +1,4 @@
-module go-gin-rest-api-with-jwt
+module simple-rest-api-with-jwt
 
 go 1.18
 

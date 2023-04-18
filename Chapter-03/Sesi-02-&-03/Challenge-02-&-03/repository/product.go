@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"go-gin-rest-api-with-jwt/models"
+	"simple-rest-api-with-jwt/models"
 	"gorm.io/gorm"
 )
 

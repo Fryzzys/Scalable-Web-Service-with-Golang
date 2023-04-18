@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
-	"go-gin-rest-api-with-jwt/database"
-	"go-gin-rest-api-with-jwt/models"
+	"simple-rest-api-with-jwt/database"
+	"simple-rest-api-with-jwt/models"
 )
 
 func ProductAuthorization() gin.HandlerFunc {

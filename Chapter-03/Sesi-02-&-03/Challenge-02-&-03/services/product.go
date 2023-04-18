@@ -1,8 +1,8 @@
 package services
 
 import (
-	"go-gin-rest-api-with-jwt/models"
-	"go-gin-rest-api-with-jwt/repository"
+	"simple-rest-api-with-jwt/models"
+	"simple-rest-api-with-jwt/repository"
 	"log"
 )
 

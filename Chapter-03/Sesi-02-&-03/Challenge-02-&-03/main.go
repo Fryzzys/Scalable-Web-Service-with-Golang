@@ -1,8 +1,8 @@
 package main
 
 import (
-	"go-gin-rest-api-with-jwt/database"
-	"go-gin-rest-api-with-jwt/routers"
+	"simple-rest-api-with-jwt/database"
+	"simple-rest-api-with-jwt/routers"
 	"log"
 	"github.com/joho/godotenv"
 )

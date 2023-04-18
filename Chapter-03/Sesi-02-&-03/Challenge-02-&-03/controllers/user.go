@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"go-gin-rest-api-with-jwt/helpers"
-	"go-gin-rest-api-with-jwt/models"
-	"go-gin-rest-api-with-jwt/services"
+	"simple-rest-api-with-jwt/helpers"
+	"simple-rest-api-with-jwt/models"
+	"simple-rest-api-with-jwt/services"
 	"net/http"
 	"github.com/gin-gonic/gin"
 )
