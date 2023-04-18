@@ -1,10 +1,10 @@
 package routers
 
 import (
-	"project-myGram/controllers"
-	"project-myGram/middlewares"
-	"project-myGram/repository"
-	"project-myGram/services"
+	"github.com/Fryzzys/Scalable-Web-Service-with-Golang/Chapter-03/Sesi-04/Project-03/controllers"
+	"github.com/Fryzzys/Scalable-Web-Service-with-Golang/Chapter-03/Sesi-04/Project-03/middlewares"
+	"github.com/Fryzzys/Scalable-Web-Service-with-Golang/Chapter-03/Sesi-04/Project-03/repository"
+	"github.com/Fryzzys/Scalable-Web-Service-with-Golang/Chapter-03/Sesi-04/Project-03/services"
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 )

@@ -3,7 +3,7 @@ package repository
 import (
 	"errors"
 	"fmt"
-	"project-myGram/models"
+	"github.com/Fryzzys/Scalable-Web-Service-with-Golang/Chapter-03/Sesi-04/Project-03/models"
 	"gorm.io/gorm"
 )
 

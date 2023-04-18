@@ -1,8 +1,8 @@
 {
     "swagger": "2.0",
     "info": {
-        "description": "This is a MyGram API.",
-        "title": "MyGram API",
+        "description": "Project",
+        "title": "Project-myGram",
         "contact": {},
         "version": "1.0"
     },

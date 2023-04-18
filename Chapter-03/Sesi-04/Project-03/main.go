@@ -2,20 +2,20 @@ package main
 
 import (
 	"log"
-	"project-myGram/database"
-	"project-myGram/routers"
+	"github.com/Fryzzys/Scalable-Web-Service-with-Golang/Chapter-03/Sesi-04/Project-03/database"
+	_ "github.com/Fryzzys/Scalable-Web-Service-with-Golang/Chapter-03/Sesi-04/Project-03/docs"
+	"github.com/Fryzzys/Scalable-Web-Service-with-Golang/Chapter-03/Sesi-04/Project-03/routers"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
-	//_ "project-myGram/docs"
 	swaggerfiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
 )
 
 const PORT = ":8080"
 
-// @title					MyGram API
+// @title					Project-myGram
 // @version					1.0
-// @description				This is a MyGram API.
+// @description				Project
 // @host 					localhost:8080
 // @BasePath 				/
 // @securityDefinitions.apikey	BearerAuth

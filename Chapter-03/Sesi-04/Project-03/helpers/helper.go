@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 	"time"
-	"project-myGram/models"
+	"github.com/Fryzzys/Scalable-Web-Service-with-Golang/Chapter-03/Sesi-04/Project-03/models"
 	"github.com/go-playground/validator/v10"
 	"github.com/golang-jwt/jwt"
 	"github.com/google/uuid"

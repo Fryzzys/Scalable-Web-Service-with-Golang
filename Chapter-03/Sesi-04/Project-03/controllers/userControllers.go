@@ -3,9 +3,9 @@ package controllers
 import (
 	"errors"
 	"net/http"
-	"project-myGram/helpers"
-	"project-myGram/models"
-	"project-myGram/services"
+	"github.com/Fryzzys/Scalable-Web-Service-with-Golang/Chapter-03/Sesi-04/Project-03/helpers"
+	"github.com/Fryzzys/Scalable-Web-Service-with-Golang/Chapter-03/Sesi-04/Project-03/models"
+	"github.com/Fryzzys/Scalable-Web-Service-with-Golang/Chapter-03/Sesi-04/Project-03/services"
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 )

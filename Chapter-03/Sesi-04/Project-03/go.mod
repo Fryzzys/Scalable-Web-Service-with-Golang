@@ -1,4 +1,4 @@
-module project-myGram
+module github.com/Fryzzys/Scalable-Web-Service-with-Golang/Chapter-03/Sesi-04/Project-03
 
 go 1.20
 
